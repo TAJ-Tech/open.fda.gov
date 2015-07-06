@@ -56,7 +56,7 @@ Designs are implemented in code and tested out based on the solution.
 - Mention here once Razi is done  on what we did to reuse existing code, reusing existing UI,  components and tech. used, API’s used
 
 # 11. Reviewing and improving the prototype
-The team reviewed the prototype, tested functionality and suggested recommendations. Razi – to provide evidence. Show 2 examples – one before and one after. The examples will be in a separate file and just provide the link. 
+The team reviewed the prototype, tested functionality and suggested recommendations. See “Screen shot.docx” file for supporting documentation.   
 
 # 12. Hosting and the GIT repository
 The prototype has been hosted at http://216.84.172.104/drug/event/
