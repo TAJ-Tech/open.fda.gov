@@ -47,6 +47,19 @@
        	  </ul>
 	  <p><em><strong>Here are some example queries that we came up with:</strong></em></p>
           <ol>
+            <li>
+	      <p><a href="https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:Advil">
+	           https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:Advil</a></p>
+	    </li>
+            <li>
+              <p><a href="https://api.fda.gov/drug/event.json?search=receivedate:[200140101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL">
+                   https://api.fda.gov/drug/event.json?search=receivedate:[200140101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL</a></p>
+	    </li>
+	    <li>
+	      <p><a href="https://api.fda.gov/drug/event.json?search=patient.drug.drugindication:multiple+myeloma">
+	           https://api.fda.gov/drug/event.json?search=patient.drug.drugindication:multiple+myeloma</a></p>
+            </li>
+	    <!--
 	    <li>
 	      <p><a href="https://api.fda.gov/drug/event.json?search=&count=patient.drug.medicinalproduct&limit=1000">
 	           https://api.fda.gov/drug/event.json?search=&count=patient.drug.medicinalproduct&limit=1000</a></p>
@@ -63,18 +76,7 @@
 	      <p><a href="https://api.fda.gov/drug/event.json?search=receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ACIPHEX&count=receivedate">
 	           https://api.fda.gov/drug/event.json?search=receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ACIPHEX&count=receivedate</a></p>
 	    </li>
-            <li>
-	      <p><a href="https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:Advil">
-	           https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:Advil</a></p>
-	    </li>
-	    <li>
-	      <p><a href="https://api.fda.gov/drug/event.json?search=patient.drug.drugindication:multiple+myeloma">
-	           https://api.fda.gov/drug/event.json?search=patient.drug.drugindication:multiple+myeloma</a></p>
-            </li>
-            <li>
-              <p><a href="https://api.fda.gov/drug/event.json?search=receivedate:[200140101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL">
-                   https://api.fda.gov/drug/event.json?search=receivedate:[200140101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL</a></p>
-	    </li>
+	    -->
 	  </ol>
         </div>
       </div>
@@ -88,46 +90,49 @@
             <h4>Filter</h4>
             <div class="radio">
               <label>
-                <input type="radio" name="api-query-options-search" id="query1" value="count=patient.drug.medicinalproduct&limit=1000" checked />
+                <input type="radio" name="api-query-options-search" id="query6" value="patient.drug.medicinalproduct:Advil" />
+                All Adverse Drug Events for patient.drug.medicinalproduct: Advil	 
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="api-query-options-search" id="query1" value="receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL" checked />
+                Adverse Drug Events for patient.drug.medicinalproduct: ADVIL between 20040101 TO 2015010 	 
+              </label>
+            </div>
+           <div class="radio">
+              <label>
+                <input type="radio" name="api-query-options-search" id="query7" value="patient.drug.drugindication:multiple+myeloma" />
+                All Adverse Drug Events for patient.drug.drugindication: mulitple myeloma	 
+              </label>
+            </div>
+
+	    <!--
+            <div class="radio">
+              <label>
+                <input type="radio" name="api-query-options-search" id="query2" value="count=patient.drug.medicinalproduct&limit=1000" />
                 Query 1	 
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="api-query-options-search" id="query2" value="patient.drug.medicinalproduct:ADVIL&count=patient.drug.medicinalproduct" />
+                <input type="radio" name="api-query-options-search" id="query3" value="patient.drug.medicinalproduct:ADVIL&count=patient.drug.medicinalproduct" />
                 Query 2	 
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="api-query-options-search" id="query3" value="patient.drug.medicinalproduct:[A+TO+Z]&count=patient.drug.medicinalproduct" />
+                <input type="radio" name="api-query-options-search" id="query4" value="patient.drug.medicinalproduct:[A+TO+Z]&count=patient.drug.medicinalproduct" />
                 Query 3	 
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="api-query-options-search" id="query4" value="receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ACIPHEX&count=receivedate" />
+                <input type="radio" name="api-query-options-search" id="query5" value="receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ACIPHEX&count=receivedate" />
                 Query 4	 
               </label>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="api-query-options-search" id="query5" value="patient.drug.medicinalproduct:Advil" />
-                Query 5	 
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="api-query-options-search" id="query6" value="patient.drug.drugindication:multiple+myeloma" />
-                Query 6	 
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="api-query-options-search" id="query7" value="receivedate:[20040101+TO+20150101]+AND+patient.drug.medicinalproduct:ADVIL" />
-                Query 7	 
-              </label>
-            </div>
+            -->
 
             <!-- Coverage chart -->
             <div class="chart coverage">  
@@ -155,7 +160,7 @@
         <!-- Search -->
         <div class="col-sm-6">
           <div class="api-query-parameter"><a href="{{site.baseurl}}/api/reference/#query-syntax">search=</a> parameter</div>
-          <textarea id="query-search" class="query-textarea form-control">receivedate:[20040101+TO+20150101]</textarea>
+          <textarea id="query-search" class="query-textarea form-control">patient.drug.medicinalproduct:Advil</textarea>
         </div>
 
         <!-- Count -->
