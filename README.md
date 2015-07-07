@@ -53,7 +53,12 @@ We converted each story into a design and then implemented it. By keeping the so
 
 # 10. Implementing the design 
 Designs are implemented in code and tested out based on the solution.
-- Mention here once Razi is done  on what we did to reuse existing code, reusing existing UI,  components and tech. used, API’s used
+The open.fda.gov website was forked and checked out from GitHub and was modified to include a new tab to display Spikes for a given drug query.
+The following files were modified:
+- _config.yml
+- static/js/api-demo.js
+- _includes/api-demo-drug-event.html
+We reused existing code and the UI, including the c3.js library already used by open.fda.gov used for charting. 
 
 # 11. Reviewing and improving the prototype
 The team reviewed the prototype, tested functionality and suggested recommendations. See “Screen shot.docx” file for supporting documentation.   
