@@ -12,11 +12,10 @@ Also, we had 3 of our own internal employees serve as the SMEs to show and devel
 
 # 2. Discussing and deciding the approach
 
-The Team reviewed and discussed the FDA challenge as stated on the FDA web site in deciding the approach. Given the scale and size of this prototype, Kanban/SCRUM hybrid approach was adopted for quick turnarounds. Separate sprints were not adopted for this prototype as everything was accomplished in one development cycle, iteratively. Microsoft Word was sufficient to handle the product backlog tracking, eliminating the need for a separate ALM tool.  Requirements identified were broken into smaller stories or tasks, and creating a High Level Design, with subsequent steps and process to follow. The artifacts needed for executing the project were also identified.
-
-We conducted our daily standup/conference call to discuss work items, monitor progress, and provide feedback to resolve all issues that arose. We also used emails and short phone calls and meetings for communication.
-
+The Team reviewed and discussed the FDA challenge as stated on the FDA web site in deciding the approach. Given the scale and size of this prototype, Kanban/SCRUM hybrid approach was adopted for quick turnarounds. Separate sprints were not adopted for this prototype as everything was accomplished in one development cycle, iteratively. Microsoft Word was sufficient to handle the product backlog tracking.  Requirements identified were broken into smaller stories or tasks, and the artifacts needed for executing the project were identified.
+We also used emails and short phone calls and meetings for communication and conducted daily standup/conference calls to discuss work items, progress and feedback. 
 A daily time capture was mandated for everybody in the team to monitor the time taken for developing the prototype.
+
 # 3. Identifying the Artifacts needed for the project
 The following artifacts were identified for the prototype project
 Documentation:
@@ -35,7 +34,7 @@ Microsoft Word was used for capture of Product Backlog of stories and tasks for 
 A High Level Design was created and used as a base to build the prototype.
 
 # 5. Identifying the process and steps needed 
-An Agile and iterative process was used to identify needs and speed development. The Product Backlog had small stories and tasks that were implanted one by one.  Time was recorded for each of the stories and tasks. Immediate feedback was given after testing each new feature for either further improvisation or approval.
+An Agile and iterative process was used to identify needs and speed development. Time was recorded for each of the stories and tasks. Immediate feedback was given after testing each new feature for either further improvisation or approval.
 
 # 6. Daily Standups/conference calls and monitoring progress
 Daily conference calls were scheduled using Outlook. As stories and tasks were converted into solutions, developed and tested, the status was updated in the Product Backlog document.
@@ -44,14 +43,12 @@ Daily conference calls were scheduled using Outlook. As stories and tasks were c
 
 To get us started quickly, so we could focus on development and the prototype, we mirrored the FDA site (https://github.com/FDA/open.fda.gov explains how mirror the site) and then expanded on the code base to create our own, new prototype. To achieve this, we used both the open.fda.gov and the openFDA website.
 
-# 8. Creating and analyzing stories
-The items in the product backlog first start out as requirements. We discuss and analyze each of these requirements as a team. The requirements are then converted into stories for designing solutions.  
 
-# 9. Designing solutions for stories
+# 8. Designing solutions for stories
 
 We converted each story into a design and then implemented it. The approach kept the design simple so that a separate artifact need not be created for every solution and the High Level Design document suffices. When needed, the design is explained and added to the artifacts.
 
-# 10. Implementing the design 
+# 9. Implementing the design 
 Designs are implemented in code and tested out based on the solution.
 The open.fda.gov website was forked and checked out from GitHub and was modified to include a new tab to display Spikes for a given drug query.
 The following files were modified:
@@ -61,15 +58,15 @@ The following files were modified:
 
 We reused existing code and the UI, including the c3.js library already used by open.fda.gov used for charting. 
 
-# 11. Reviewing and improving the prototype
+# 10. Reviewing and improving the prototype
 The team reviewed the prototype, tested functionality and suggested recommendations. Testers acted as proxy users and through their feedback changes to human UI were iteratively made.  See “Screen shot.docx” file for supporting documentation.    
 
-# 12. Hosting and the GIT repository
+# 11. Hosting and the GIT repository
 The prototype has been hosted at http://216.84.172.104/drug/event/
 
 The server runs Linux and Jekyll, and the actual software is also developed using node.js, ruby, Javascript and python 
 The code and all the artifacts (including this document) are at the GIT repository <GIT Repository name and link>
 
-# 13. Project artifacts
+# 12. Project artifacts
 All project artifacts are located in the artifacts folder in the GitHub repository located at:
 https://github.com/TAJ-Tech/open.fda.gov/tree/master/_artifacts
