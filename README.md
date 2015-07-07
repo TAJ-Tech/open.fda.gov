@@ -61,6 +61,6 @@ The team reviewed the prototype, tested functionality and suggested recommendati
 # 12. Hosting and the GIT repository
 The prototype has been hosted at http://216.84.172.104/drug/event/
 
-The server runs Linux and Apache, and the actual software is also developed using open source
+The server runs Linux and Jekyll, and the actual software is also developed using open source
 
 The code and all the artifacts (including this document) are at the GIT repository <GIT Repository name and link>
