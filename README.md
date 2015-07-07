@@ -1,5 +1,5 @@
 
-# Working prototype URL: - http://216.84.172.104/drug/event/
+# Prototype URL: - http://216.84.172.104/drug/event/
 
 # Iterative/Agile Approach to FDA Challenge Prototype – Pool 1
 # 1. Identifying the Team
