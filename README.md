@@ -1,7 +1,5 @@
 
-# Prototype URL: - http://216.84.172.104/drug/event/
-
-# Iterative/Agile Approach to FDA Challenge Prototype – Pool 1
+# Iterative/Agile Approach to FDA Challenge Prototype – Pool 1 URL: http://216.84.172.104/drug/event/
 # 1. Identifying the Team
 
 TAJ team (Role and name of individual) for developing the prototype consisted of:
