@@ -70,3 +70,7 @@ The prototype has been hosted at http://216.84.172.104/drug/event/
 The server runs Linux and Jekyll, and the actual software is also developed using open source
 
 The code and all the artifacts (including this document) are at the GIT repository <GIT Repository name and link>
+
+# 13. Project artifacts
+All project artifacts are located in the artifacts folder in the GitHub repository located at:
+https://github.com/TAJ-Tech/open.fda.gov/tree/master/_artifacts
