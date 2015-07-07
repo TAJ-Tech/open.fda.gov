@@ -58,6 +58,7 @@ The following files were modified:
 - _config.yml
 - static/js/api-demo.js
 - _includes/api-demo-drug-event.html
+
 We reused existing code and the UI, including the c3.js library already used by open.fda.gov used for charting. 
 
 # 11. Reviewing and improving the prototype
