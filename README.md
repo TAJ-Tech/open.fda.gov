@@ -51,7 +51,7 @@ The items in the product backlog first start out as requirements. We discuss and
 
 # 9. Designing solutions for stories
 
-We converted each story into a design and then implemented it. By keeping the solution simple we avoided the need for a separate artifact.  The approach kept the design simple so that a separate artifact need not be created for every solution and the High Level Design document suffices. When needed, the design is explained and added to the artifacts.
+We converted each story into a design and then implemented it. The approach kept the design simple so that a separate artifact need not be created for every solution and the High Level Design document suffices. When needed, the design is explained and added to the artifacts.
 
 # 10. Implementing the design 
 Designs are implemented in code and tested out based on the solution.
@@ -64,7 +64,7 @@ The following files were modified:
 We reused existing code and the UI, including the c3.js library already used by open.fda.gov used for charting. 
 
 # 11. Reviewing and improving the prototype
-The team reviewed the prototype, tested functionality and suggested recommendations. See “Screen shot.docx” file for supporting documentation.   
+The team reviewed the prototype, tested functionality and suggested recommendations. Testers acted as proxy users and through their feedback changes to human UI were iteratively made.  See “Screen shot.docx” file for supporting documentation.    
 
 # 12. Hosting and the GIT repository
 The prototype has been hosted at http://216.84.172.104/drug/event/
