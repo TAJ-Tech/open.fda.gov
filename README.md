@@ -4,7 +4,7 @@
 
 TAJ team (Role and name of individual) for developing the prototype consisted of:
 
-1.	An overall lead as well as Product Manager/Owner – Mr. Kannan Venkataraman
+1.	An overall lead as well as Product Manager/Owner – Mr. Anil Subbarao
 2.	Visual Designer – Mr. Khaja Raziuddin
 3.	User Researcher/Usability Tester – Mr. Shaji Thomas
 
